@@ -1,0 +1,79 @@
+% This file was created by matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.85000,0.32500,0.09800}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=0.951\figurewidth,
+height=\figureheight,
+at={(0\figurewidth,0\figureheight)},
+scale only axis,
+xmin=0.000000,
+xmax=3.500000,
+xlabel style={font=\color{white!15!black}},
+xlabel={Time in h},
+ymin=-10.000000,
+ymax=2.000000,
+ylabel style={font=\color{white!15!black}},
+ylabel={Control inputs},
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={Closed-loop control inputs with $K_{\mathrm{stabn}}$},
+xmajorgrids,
+ymajorgrids,
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot[const plot, color=mycolor1, line width=1.5pt] table[row sep=crcr] {%
+0.000000	-1.661765\\
+0.166667	1.151360\\
+0.333333	-0.774510\\
+0.500000	-0.120256\\
+0.666667	-0.355542\\
+0.833333	-0.328746\\
+1.000000	-0.392252\\
+1.166667	-0.434969\\
+1.333333	-0.492159\\
+1.500000	-0.553743\\
+1.666667	-0.623989\\
+1.833333	-0.702836\\
+2.000000	-0.791736\\
+2.166667	-0.891847\\
+2.333333	-1.004625\\
+2.500000	-1.131659\\
+2.666667	-1.274758\\
+2.833333	-1.435950\\
+3.000000	-1.617525\\
+3.166667	-1.822060\\
+3.333333	-2.052458\\
+};
+\addlegendentry{$u^{(1)}$}
+
+\addplot[const plot, color=mycolor2, line width=1.5pt] table[row sep=crcr] {%
+0.000000	-6.528193\\
+0.166667	0.898083\\
+0.333333	-1.492193\\
+0.500000	-0.684176\\
+0.666667	-1.194019\\
+0.833333	-1.325531\\
+1.000000	-1.577330\\
+1.166667	-1.800060\\
+1.333333	-2.051081\\
+1.500000	-2.321947\\
+1.666667	-2.623475\\
+1.833333	-2.959775\\
+2.000000	-3.336912\\
+2.166667	-3.760591\\
+2.333333	-4.237180\\
+2.500000	-4.773616\\
+2.666667	-5.377633\\
+2.833333	-6.057872\\
+3.000000	-6.824033\\
+3.166667	-7.687016\\
+3.333333	-8.659087\\
+};
+\addlegendentry{$u^{(2)}$}
+
+\end{axis}
+\end{tikzpicture}%

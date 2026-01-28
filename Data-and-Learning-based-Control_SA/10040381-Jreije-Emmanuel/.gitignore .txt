@@ -1,0 +1,16 @@
+# MATLAB backups
+*.asv
+*.autosave
+
+# Simulink cache/build
+slprj/
+*_rtw/
+*slrt_rtw/
+*.slxc
+
+# MEX
+*.mex*
+
+# OS junk
+Thumbs.db
+.DS_Store

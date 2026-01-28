@@ -1,0 +1,44 @@
+% This file was created by matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=0.951\figurewidth,
+height=\figureheight,
+at={(0\figurewidth,0\figureheight)},
+scale only axis,
+xmin=0.000000,
+xmax=25.000000,
+xlabel style={font=\color{white!15!black}},
+xlabel={Time in h},
+ymin=15.000000,
+ymax=15.006000,
+ylabel style={font=\color{white!15!black}},
+ylabel={Blood glucose level},
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={Closed-loop blood glucose with $K_{\mathrm{LQRn}}$},
+xmajorgrids,
+ymajorgrids
+]
+\addplot [color=mycolor1, line width=1.5pt, forget plot]
+  table[row sep=crcr]{%
+0.000000	15.000000\\
+0.166667	15.000001\\
+0.333333	15.000006\\
+0.500000	15.000016\\
+0.666667	15.000032\\
+0.833333	15.000053\\
+1.000000	15.000079\\
+1.166667	15.000108\\
+1.500000	15.000175\\
+1.833333	15.000248\\
+2.333333	15.000366\\
+3.166667	15.000568\\
+5.666667	15.001184\\
+24.000000	15.005707\\
+};
+\end{axis}
+\end{tikzpicture}%

@@ -1,0 +1,65 @@
+% This file was created by matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=0.951\figurewidth,
+height=\figureheight,
+at={(0\figurewidth,0\figureheight)},
+scale only axis,
+xmin=0.000000,
+xmax=20.000000,
+xlabel style={font=\color{white!15!black}},
+xlabel={Time in s},
+ymin=-5.000000,
+ymax=20.000000,
+ylabel style={font=\color{white!15!black}},
+ylabel={$u$},
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={Problem 3(c): Control input},
+xmajorgrids,
+ymajorgrids
+]
+\addplot [color=mycolor1, line width=1.5pt, forget plot]
+  table[row sep=crcr]{%
+0.000000	2.616414\\
+0.010000	18.607956\\
+0.030000	14.479031\\
+0.070000	8.414072\\
+0.110000	4.329183\\
+0.140000	2.203528\\
+0.170000	0.703872\\
+0.200000	-0.312970\\
+0.230000	-0.978672\\
+0.260000	-1.373375\\
+0.280000	-1.525737\\
+0.300000	-1.609923\\
+0.320000	-1.640533\\
+0.330000	-1.640055\\
+0.350000	-1.614258\\
+0.370000	-1.560825\\
+0.400000	-1.440477\\
+0.450000	-1.175024\\
+0.610000	-0.269319\\
+0.670000	0.002441\\
+0.730000	0.225843\\
+0.790000	0.404833\\
+0.850000	0.545544\\
+0.910000	0.654294\\
+0.970000	0.737169\\
+1.030000	0.799736\\
+1.090000	0.846654\\
+1.160000	0.886526\\
+1.240000	0.917926\\
+1.330000	0.940920\\
+1.450000	0.958869\\
+1.610000	0.970256\\
+1.890000	0.976391\\
+2.610000	0.978587\\
+19.990000	0.978543\\
+};
+\end{axis}
+\end{tikzpicture}%
